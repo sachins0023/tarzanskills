@@ -53,3 +53,5 @@ operations should be enclosed without quotes while numbers have to be put in quo
 
 from fractions import Fraction
 helps you work with fractions and their arithmetic and logical uses.
+
+Always in the case of solving arithmetic involving decimals try to use from decimal import Decimal and include the numbers in quotes inside Decimal()
