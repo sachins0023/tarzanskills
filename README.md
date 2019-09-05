@@ -55,3 +55,20 @@ from fractions import Fraction
 helps you work with fractions and their arithmetic and logical uses.
 
 Always in the case of solving arithmetic involving decimals try to use from decimal import Decimal and include the numbers in quotes inside Decimal()
+
+Variables must always have meaningful names
+Type Casting
+ex: Conversion of integer values into float if data type declared is float
+
+Statically typed languages. ex: C,C++,java
+-Requires the data type to be specified beforehand before accepting data
+
+Dynamically typed languages. ex: Python2, Python3
+-Automatically identifies the data type based on the input
+
+Naming Convention
+1. Camel convention- new word starts with capital. ex: FirstName, firstName [Used for C, C++]
+2. Pascal convention- words separated with underscore. ex: first_name, last_name [Used for Python]
+
+Order of operation in Python : PEMDAS
+Paranthesis, Exponential,Multiplication,Division,Addition,Subtraction
