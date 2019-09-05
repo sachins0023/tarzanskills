@@ -11,7 +11,7 @@ Give output in the form of
 
 To store your credentials for git push, use
     git config credential.helper store
-    git push https://github.com/<owner>/<repo>.git
+    git push https://github.com/owner/repo.git
 
 Creating a new repo 'tarzanskills'
 Including readme.md where today's work has to be highlighted
