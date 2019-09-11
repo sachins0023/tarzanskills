@@ -20,7 +20,8 @@ def add_memory(value):
     fo.write(value)
 
 def view_memory():
-    fo = open('/home/sachin/tarzan/tarzanskills/memory.txt', 'r')
+    fo = open('/home/sachin/tarzan/tarzanskills/memory.txt', 'a+')
+    fo.seek(0, 0)
     return fo.read()
 
 def clear_memory():
@@ -79,7 +80,7 @@ while(index>=0):
         if (qn == 'y'):
             add_memory(str(output))
     elif operation == 6:
-        view_memory()
+        print(view_memory())
     elif operation == 7:
         clear_memory()
     else:
