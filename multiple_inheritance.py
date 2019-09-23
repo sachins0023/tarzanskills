@@ -7,8 +7,10 @@ class Mother:
         self.hair_colour = hair_colour
 
 class Child(Father, Mother):
-    pass
+    def __init__(self):
+        Father.__init__(self, "Blue")
+        Mother.__init__(self, "Green")
 
 child = Child()
-child.hair_colour = 'Blue'
-child.eye_colour = 'pink'
+print(child.eye_colour)
+print(child.hair_colour)
